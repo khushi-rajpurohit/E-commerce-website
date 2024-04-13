@@ -2,7 +2,7 @@
 import { useState } from "react";
 import "./dropdown.css"
 
-const ddArr = ["Clothes", "Shoes", "Electronics"];
+const ddArr = ["Clothes", "Shoes", "Other","Furniture","Electronics"];
 
 export default function DropDown() {
     let [isOpen, setIsOpen] = useState(false)
