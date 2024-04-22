@@ -1,0 +1,20 @@
+.category-image{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    align-self: center;
+    align-content: center;
+}
+
+.category-name{
+
+
+}
+
+.category-div{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-evenly;
+}
+   

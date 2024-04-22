@@ -1,12 +1,12 @@
 .style-card{
     height: 8rem;
     width: 17rem;
-    background-color: rgb(219, 195, 228);
-    margin: 1rem;
+    background-color: white;
+    margin:1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-   
+    border-radius: 40% 0% 0 40%;
 }
 .home{
     display: flex;
@@ -25,13 +25,17 @@
 
 .cs-img{
     height: 8rem;
-    width: 10rem;
+    width: 8rem;
+    border-radius: 50%;
     
 }
 .cs-title{
-    text-align: center;
+    text-align:left;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 0rem;
+    background-color: #c49bcf;
+    
+    padding: 0.5rem;
 }
 
 .products-css{
