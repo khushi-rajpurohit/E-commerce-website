@@ -33,4 +33,23 @@
     color: #fff;
     text-decoration: none;
   }
+
+
+
+  
+ 
+
+  .productInfo {
+    transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+    background-color: white;
+  }
+  
+  .productInfo:hover {
+    transform: scale(1.05); /* Increases size by 5% when hovering */
+   
+    
+  }
+
+  
+  
   

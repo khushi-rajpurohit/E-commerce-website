@@ -43,14 +43,14 @@
     background-color: #ddd;
   } */
 
-  .styled-dropdown {
+  /* .styled-dropdown {
     background-color: #6f1e85;
-    
-     font-size: 16px; /* Font size */
+    color: #6f1e85; 
+     font-size: 16px; 
       color: white; 
      outline: none; 
      
-    } 
+    }  */
    /* .styled-dropdown {
     padding: 10px;
     font-size: 16px;
@@ -60,18 +60,34 @@
     cursor: pointer;
   } */
   
-  .styled-dropdown option {
+  /* .styled-dropdown option {
     padding: 10px;
     font-size: 16px;
+    
+  } */
+  
+  
+/*    
+   .styled-dropdown > option {
+     background-color: white; 
+     color: #6f1e85; 
+     border-color: #6f1e85;
+   } */
+   
+   .styled-dropdown {
+    border: 2px solid #6f1e85; /* Set the border color */
+    padding: 8px; /* Add some padding for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #6f1e85; /* Set the background color to white */
+    color: white; /* Set the text color to match the border */
+    transition: border-color 0.3s; /* Smooth transition for border color changes */
   }
   
-   
-   .styled-dropdown:focus {
-     border-color: #6f1e85; /* Change border color on focus */
-   }
-   
-   .styled-dropdown > option {
-     background-color: white; /* Option background color */
-     color: #333; /* Option text color */
-   }
-   
+  .styled-dropdown:focus {
+    border-color: #6f1e85; /* Ensure border color remains consistent when focused */
+  }
+  
+  .option {
+    color: #6f1e85; /* Set the text color for options */
+  }
+  
