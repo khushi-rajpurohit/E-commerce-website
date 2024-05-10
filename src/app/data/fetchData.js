@@ -14,7 +14,7 @@ export function useFetchData(API) {
          const  response =  await fetch(API);
          const data = await response.json();
          setProducts(data)
-         console.log(data)
+        //  console.log(data)
       } catch (error) {
           console.log(error)
       }
@@ -24,7 +24,7 @@ export function useFetchData(API) {
   },[])  
 
   return { products };
-  console.log(data)
+  
   console.log(products)
   
 }

@@ -6,9 +6,7 @@ const DataContext = createContext();
 
 export default function DataProvider({ children }) {
   const { products } = useFetchData("https://api.escuelajs.co/api/v1/products");
-  console.log("here is data hh",products)
- 
-
+  // console.log("here is data hh",products)
  
 
   return <DataContext.Provider value={products}>{children}</DataContext.Provider>;
