@@ -10,7 +10,7 @@ export default function Header() {
 
         <header className="header">
             <div className="logo">
-                <Link href="/">Comfy</Link>
+                <Link href="/">Desire.com</Link>
             </div>
             <nav className="nav">
                 <ul>
