@@ -15,13 +15,20 @@ function DropDown() {
 
   const specifiedCategories = ["Clothes", "Shoes", "Miscellaneous", "Furniture", "Electronics"];
 
+  // const handleCategoryChange = (event) => {
+  //   const selectedCategory = event.target.value;
+  //   if (selectedCategory) {
+  //     router.push(`/categories/${selectedCategory}`); // Navigate to the selected category
+  //   }
+  // };
+
   const handleCategoryChange = (event) => {
     const selectedCategory = event.target.value;
     if (selectedCategory) {
-      router.push(`/categories/${selectedCategory}`); // Navigate to the selected category
+      router.push(`/categories?category=${selectedCategory}`); 
     }
   };
-
+  
   return (
     <select
       className="styled-dropdown"

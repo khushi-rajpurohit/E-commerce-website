@@ -27,7 +27,7 @@ function Pc() {
       .map((category) => (
         <div key={category.id}>
           <img src={category.image} className="category-image" alt={category.name} />
-          <Link href={`/categories/${category.name}`}>{category.name}</Link>
+          <Link href={`/categories?category=${category.name}`}>{category.name}</Link>
         </div>
       ))
   }
@@ -51,33 +51,3 @@ function Pc() {
 
 
 
-
-
-// export async function GetData() {
-//   const res = await fetch('https://api.escuelajs.co/api/v1/categories');
-
-//   if (!res.ok) {
-//     throw new Error('Failed to fetch data');
-//   }
-
-//   return res.json();
-// }
-   
-//   export default async function ProductCategories() {
-//     const data = await GetData()
-   
-//     return <main className='category-div'>
-//        {
-//   data.slice(0, 5).map((category) => (
-//     <div key={category.id}>
-      
-//       <img src={category.image} className="category-image" alt={category.name} />
-      
-//       <Link href={`/categories/${category.name}`}>{category.name}</Link>
-//     </div>
-    
-//   ))
-// }
-
-  //   </main>
-  // }
